@@ -1,0 +1,13 @@
+.rest__highlight {
+    height: 22px;
+    margin: 4px 0 0 32.8px;
+    background-color: #F7EDD0;
+    color: #DAA31A;
+    font-family: 'Poppins Regular', 'Arial', sans-serif;
+    font-size: 12.78px;
+    line-height: 19.16px;
+    padding: 3.5px 8.46px 0;
+    display: inline-block;
+    border-radius: 5.4px;
+}
+

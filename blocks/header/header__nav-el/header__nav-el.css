@@ -1,0 +1,8 @@
+.header__nav-el {
+    margin-right: 53.49px;
+    letter-spacing: 0.7px;
+}
+
+.header__nav-el:last-of-type {
+    margin-right: 0;
+}

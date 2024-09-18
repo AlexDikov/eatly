@@ -1,0 +1,10 @@
+.coupon__title {
+    font-family: 'Poppins ExtraBold', 'Arial', sans-serif;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0 0 9px 66px;
+    padding-top: 37px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}

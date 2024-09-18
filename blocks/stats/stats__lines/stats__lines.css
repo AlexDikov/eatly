@@ -1,0 +1,9 @@
+.stats__lines {
+    height: 123px;
+    width: 338px;
+    border-left: solid 1px rgb(197, 197, 197, 0.15);
+    border-right: solid 1px rgb(197, 197, 197, 0.15);
+    position: absolute;
+    top: -10px;
+    right: -23px;
+}

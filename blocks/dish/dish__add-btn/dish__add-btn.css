@@ -1,0 +1,8 @@
+.dish__add-btn {
+    border: none;
+    background-image: url(../../../images/Add.svg);
+    background-color: transparent;
+    height: 39.72px;
+    width: 43.83px;
+    margin: 12px 0 0 0;
+}

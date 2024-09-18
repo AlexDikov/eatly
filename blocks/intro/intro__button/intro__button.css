@@ -1,0 +1,20 @@
+.intro__button {
+    font-size: 16.27px;
+    line-height: 24.41px;
+    font-family: 'Poppins Medium', 'Arial', sans-serif;
+    border: none;
+    background-color: #6C5FBC;
+    color: #FFFFFF;
+    border-radius: 12.41px;
+    height: 59px;
+    width: 156px;
+}
+
+.intro__button:last-of-type {
+    background-color: #FFFFFF;
+    color: #6C5FBC;
+   border: #6C5FBC 1px solid;
+    height: 59px;
+    width: 110px;
+    margin:35px 0 0 14px;
+}

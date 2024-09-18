@@ -1,0 +1,9 @@
+.stats {
+    background-image: url(../../images/BG.svg);
+    height: 220.5px;
+   align-items: center;
+   display: flex;
+    margin:0 -96px 0 -96px;
+    justify-content: center;
+    
+}

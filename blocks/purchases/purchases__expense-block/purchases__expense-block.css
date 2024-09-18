@@ -1,0 +1,5 @@
+.purchases__expense-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 22px 22px 20.42px;
+}

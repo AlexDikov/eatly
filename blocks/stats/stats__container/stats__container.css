@@ -1,0 +1,9 @@
+.stats__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 123px;
+    max-width: 1055px;
+    width: 100%;
+    margin-top: 2px;
+}

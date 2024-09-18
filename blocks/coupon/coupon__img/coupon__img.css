@@ -1,0 +1,8 @@
+.coupon__img {
+    position: absolute;
+}
+
+.coupon__img:last-of-type {
+    position: absolute;
+    left: 321px;
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Poppins ExtraBold';
+    font-weight: 800;
+    src: url(./Poppins-ExtraBold.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Poppins Bold';
+    font-weight: 700;
+    src: url(./Poppins-Bold.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Poppins SemiBold';
+    font-weight: 600;
+    src: url(./Poppins-SemiBold.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Poppins Medium';
+    font-weight: 500;
+    src: url(./Poppins-Medium.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Poppins Regular';
+    font-weight: 400;
+    src: url(./Poppins-Regular.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Manrope ExtraBold';
+    font-weight: 800;
+    src: url(./Manrope-ExtraBold.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Manrope Bold';
+    font-weight: 700;
+    src: url(./Manrope-Bold.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Manrope SemiBold';
+    font-weight: 600;
+    src: url(./Manrope-SemiBold.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Manrope Medium';
+    font-weight: 500;
+    src: url(./Manrope-Medium.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Manrope Regular';
+    font-weight: 400;
+    src: url(./Manrope-Regular.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'PublicSans Bold';
+    font-weight: 700;
+    src: url(./PublicSans-Bold.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Poppins Italic';
+    font-weight: 400;
+    src: url(./Poppins-Italic.ttf)format('truetype');
+}

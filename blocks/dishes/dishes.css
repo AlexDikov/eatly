@@ -1,0 +1,6 @@
+.dishes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    border-bottom: #CBCBCB 1px solid;
+}

@@ -1,0 +1,6 @@
+.purchases {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 0 0;
+    border-bottom: #CBCBCB 1px solid;
+}

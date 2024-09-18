@@ -1,0 +1,12 @@
+.coupon__form {
+    margin-left: 66px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    width: 439.73px;
+    height: 68px;
+    background-color: #FFFFFF;
+    border-radius: 14.23px;
+    align-items: center;
+    justify-content: space-between;
+}

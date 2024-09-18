@@ -1,0 +1,6 @@
+.order__dish {
+    display: flex;
+    justify-content: space-between;
+    margin: 4.01px 17.28px 4.21px 17.06px;
+    color: #323142;
+}

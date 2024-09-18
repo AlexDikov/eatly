@@ -1,0 +1,15 @@
+.page {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px 96px 0 96px;
+    background-color: #F9F9F9;
+    box-sizing: border-box;
+    margin: 0 auto 0;
+    overflow: hidden;
+}
+
+span {
+    color: #5C4EAE
+}

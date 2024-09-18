@@ -1,0 +1,10 @@
+.feedback__slider {
+    position: absolute;
+    background-color: rgb(108, 95, 188);
+    width: 191px;
+    height: 11px;
+    border-radius: 78.53px;
+    z-index: 1;
+    right: -235px;
+    bottom: 10px;
+}

@@ -1,0 +1,12 @@
+.purchases__btn {
+    border: none;
+    width: 176px;
+    height: 53px;
+    border-radius: 12.56px;
+    font-family: 'Manrope SemiBold', 'Arial', sans-serif;
+    font-size: 18.85px;
+    line-height: 28.27px;
+    padding: 0 30px 6px 0;
+    letter-spacing: 0.7px;
+    position: relative;
+}

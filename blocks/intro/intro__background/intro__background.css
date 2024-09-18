@@ -1,0 +1,11 @@
+.intro__background {
+    width: 206.99px;
+    height: 205.48px;
+    border-radius: 16.76px;
+    position: absolute;
+    left: 32px;
+    bottom: 35.43px;
+    z-index: 1;
+    background-color: #FFFFFF;
+    box-shadow: 13.41px -16.76px 27.93px rgba(1, 1, 1, 0.15);
+}

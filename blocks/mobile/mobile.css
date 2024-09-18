@@ -1,0 +1,5 @@
+.mobile {
+    display: flex;
+    flex-direction: row;
+    border-bottom: #CBCBCB 1px solid;
+}
