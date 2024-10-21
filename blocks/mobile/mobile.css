@@ -2,4 +2,25 @@
     display: flex;
     flex-direction: row;
     border-bottom: #CBCBCB 1px solid;
+    justify-content: space-between;
+    padding: 102.5px 0 120px 113px;
+}
+
+.mobile__img {
+    height: 625px;
+    width: 371.46px;
+    
+}
+
+@media screen and (max-width: 1250px) {
+    .mobile {
+        padding: 74px 0 85px 80px;
+    }
+
+    .mobile__img {
+        height: 444px;
+        width: 264px;
+    }
+
+    
 }

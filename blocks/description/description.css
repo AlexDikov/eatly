@@ -1,0 +1,121 @@
+.description {
+    margin-top: 70px;
+    max-width: 567px;
+    position: relative;
+}
+
+.description__button {
+    font-size: 16.27px;
+    line-height: 24.41px;
+    font-family: 'Poppins Medium', 'Arial', sans-serif;
+    border: none;
+    background-color: #6C5FBC;
+    color: #FFFFFF;
+    border-radius: 12.41px;
+    height: 59px;
+    width: 156px;
+}
+
+.description__button:last-of-type {
+    background-color: #FFFFFF;
+    color: #6C5FBC;
+   border: #6C5FBC 1px solid;
+    height: 59px;
+    width: 110px;
+    margin:35px 0 0 14px;
+}
+
+.description__line {
+    position: absolute;
+    top:8px;
+    left: 3px
+}
+
+.description__subtitle {
+    margin:0 0 18px 76px;
+    font-family: 'Poppins SemiBold', 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color:#201F1F;
+    opacity: 0.2;
+    letter-spacing: 2px;
+}
+
+.description__text {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 16.5px;
+    padding-left: 2px;
+    max-width: 499px;
+    color: #676767;
+    opacity: 0.7;
+    text-align:justify;
+    letter-spacing: 0.51px;
+}
+
+.description__title {
+    font-family: 'Poppins SemiBold', 'Arial', sans-serif;
+    font-size: 75px;
+    line-height: 90px;
+    letter-spacing: -3px;
+    margin: 0;
+}
+
+.description__rank {
+    margin: 32px 0 0 0;
+}
+
+@media screen and (max-width: 1250px) {
+
+    .description__button {
+        font-size: 12px;
+        line-height: 17px;
+        border-radius: 9px;
+        height: 42px;
+        width: 111px;
+    }
+
+    .description__button:last-of-type {
+        height: 42px;
+        width: 78px;
+        margin:25px 0 0 10px;
+    }
+
+    .description__text {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 12px;
+        letter-spacing: 0.3px;
+    }
+
+    .description__subtitle {
+        font-size: 11px;
+        line-height: 13px;
+        margin: 0 0 12px 55px;
+        letter-spacing: 1.2px;
+    }
+
+    .description__title {
+        font-size: 53px;
+        line-height: 64px;
+        letter-spacing: -1.9px;
+        margin: 0;
+        max-width: 400px;
+    }
+
+    .description__rank {
+        width: 214px;
+        height: 23px;
+        margin: 23px 0 0 0;
+    }
+
+    .description__line {
+        position: absolute;
+        top:6px;
+        left: 3px;
+        width: 38px;
+    }
+}
+

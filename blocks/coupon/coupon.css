@@ -2,8 +2,119 @@
     background-color: #6C5FBC;
     max-width: 1214px;
     height: 280px;
-    width: 100%;
     border-radius: 30px;
-    margin: 0  0 216px 28px;
+    margin: 0  0 216px 35px;
     position: relative;
+    background-image: url(../../images/Coupon2.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 37px 0 0 66px;
+    box-sizing: border-box;
+}
+
+.coupon__btn {
+    width: 132.37px;
+    height: 53.44px;
+    border-radius: 11.25px;
+    background-color: #6C5FBC;
+    border: none;
+    font-family: 'Poppins Medium', 'Arial', sans-serif;
+    font-size: 14.75px;
+    line-height: 22.13px;
+    color: #F7F8FA;
+    margin-right: 6.35px;
+    letter-spacing: 0.5px;
+}
+
+.coupon__dish {
+    width: 274.06px;
+    height: 276.01px;
+    position: absolute;
+    right: 72.06px;
+    bottom: -60px;
+    z-index: 1;
+}
+
+.coupon__form {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    width: 439.73px;
+    height: 68px;
+    background-color: #FFFFFF;
+    border-radius: 14.23px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coupon__input {
+    font-family: 'Poppins Regular', 'Arial', sans-serif;
+    font-size: 16.27px;
+    line-height: 24.4px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #878787;
+    max-width: 250px;
+    width: 100%;
+    letter-spacing: 0.5px;
+    margin-left: 25px;
+}
+
+.coupon__title {
+    font-family: 'Poppins ExtraBold', 'Arial', sans-serif;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0 0 9px 0;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+} 
+
+@media screen and (max-width: 1250px) {
+    .coupon {
+        max-width: 863px;
+        height: 199px;
+        border-radius: 21px;
+        margin: 0  0 153px 23px;
+        padding: 26px 0 0 47px;
+    }
+    
+    .coupon__btn {
+        width: 94px;
+        height: 38px;
+        border-radius: 8px;
+        font-size: 11px;
+        line-height: 16px;
+        margin-right: 6.35px;
+        letter-spacing: 0.5px;
+    }
+    
+    .coupon__dish {
+        width: 195px;
+        height: 196px;
+        right: 52.06px;
+        bottom: -43px;
+    }
+    
+    .coupon__form {
+        width: 313px;
+        height: 48px;
+        border-radius: 10px;
+    }
+    
+    .coupon__input {
+        font-size: 12px;
+        line-height: 17px;
+        max-width: 180px;
+        width: 100%;
+        letter-spacing: 0.5px;
+        margin-left: 15px;
+    }
+    
+    .coupon__title {
+        font-size: 50px;
+        line-height: 75px;
+        margin: 0 0 7px 0;
+    } 
+    
 }

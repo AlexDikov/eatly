@@ -1,9 +1,112 @@
 .stats {
     background-image: url(../../images/BG.svg);
     height: 220.5px;
-   align-items: center;
-   display: flex;
+    align-items: center;
+    display: flex;
     margin:0 -96px 0 -96px;
     justify-content: center;
+    
+}
+
+.stats__box {
+    width: 33%;
+}
+
+.stats__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 123px;
+    max-width: 1055px;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.stats__lines {
+    height: 123px;
+    width: 338px;
+    border-left: solid 1px rgb(197, 197, 197, 0.15);
+    border-right: solid 1px rgb(197, 197, 197, 0.15);
+    position: absolute;
+    top: -10px;
+    right: -23px;
+}
+
+.stats__subtitle {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 14.4px;
+    line-height: 21.6px;
+    color: #C5BFED;
+    text-align: center;
+    margin: 10px 0 0 29px;
+    padding: 0;
+    letter-spacing: 0.4px;
+}
+
+.stats__title {
+    font-family: 'PublicSans Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 43.2px;
+    line-height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+#middle-el {
+    padding-left: 20px;
+    position: relative;
+}
+
+#middle-sub {
+    padding-left: 25px;
+} 
+
+@media screen and (max-width: 1250px) {
+    .stats {
+        height: 157px;
+        margin:0 -69px 0 -69px;
+        background-size: cover;
+    }
+
+    .stats__container {
+        max-width: 750px;
+        padding-right: 10px;
+    }
+
+    .stats__lines {
+        height: 88px;
+        width: 240px;
+        border-left: solid 1px rgb(197, 197, 197, 0.15);
+        border-right: solid 1px rgb(197, 197, 197, 0.15);
+        position: absolute;
+        top: -5px;
+        right: -23px;
+    }
+
+    .stats__subtitle {
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 0.4px;
+    }
+
+    .stats__title {
+        font-size: 31px;
+        line-height: 38px;
+        
+    }
+    
+    #middle-el {
+        padding-left: 30px;
+        position: relative;
+        margin-left: 15px;
+    }
+    
+    #middle-sub {
+        padding-left: 45px;
+        margin-left: 0;
+    }
     
 }

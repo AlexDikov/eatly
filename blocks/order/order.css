@@ -1,7 +1,6 @@
 .order {
     display: flex;
     justify-content: space-between;
-   
     border-radius: 12.04px;
     max-width: 345.17px;
     margin-top: 15.05px;
@@ -10,6 +9,83 @@
 }
 
 .order:first-of-type {
-    margin-top: 48px;
     box-shadow: 0 20.07px 30.01px rgb(70, 70, 70, 0.1);
+}
+
+.order__dish {
+    display: flex;
+    justify-content: space-between;
+    margin: 4.01px 17.28px 4.21px 17.06px;
+    color: #323142;
+}
+
+.order__img {
+    width: 77.26px;
+    height: 80.08px;
+}
+
+.order__item {
+    font-size: 19.06px;
+    line-height: 26.69px;
+    font-family: 'Poppins SemiBold', 'Arial', sans-serif;
+    margin: 13.05px 0 0 19.06px;
+}
+
+.order__status {
+    font-family: 'Poppins Medium', 'Arial', sans-serif;
+    font-size: 12.04px;
+    line-height: 16.86px;
+    margin: 4.11px 0 0 19.06px;
+}
+
+.order__status_red {
+    color: #F1534E;
+}
+
+.order__time {
+    font-family: 'Poppins Medium', 'Arial', sans-serif;
+    font-size: 13.04px;
+    line-height: 18.26px;
+    margin: 60.2px 16.28px 0 0;
+    color: #ACADB9;
+}
+
+@media screen and (max-width: 1250px) {
+    .order {
+        border-radius: 8.6px;
+        max-width: 245.17px;
+        margin-top: 10px;
+        padding: 3px 12px 3px;
+        box-sizing: border-box;
+    }
+
+    .order__dish {
+        margin: 0;
+    }
+    
+    .order__img {
+        width: 55px;
+        height: 57px;
+    }
+    
+    .order__item {
+        font-size: 13.5px;
+        line-height: 19px;
+        margin: 8px 0 0 15px;
+    }
+    
+    .order__status {
+        font-size: 8.5px;
+        line-height: 12px;
+        margin: 4.11px 0 0 15px;
+    }
+    
+    .order__time {
+        display: flex;
+        align-self: flex-end;
+        font-size: 9.3px;
+        line-height: 13px;
+        margin: 0 0 3px 0;
+        color: #ACADB9;
+    }
 }

@@ -2,5 +2,141 @@
     width: 395.99px;
     height: 297.6px;
     border-radius: 30.02px;
-   box-shadow: 5.95px 71.35px 35.67px rgb(229, 229, 229, 0.7);   ;
+    box-shadow: 5.95px 71.35px 35.67px rgb(229, 229, 229, 0.7);   ;
+}   
+
+.rest__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rest__content {
+    padding: 5px 27px 18px 34px;
+}
+
+.rest__favourite {
+    border: none;
+    background-image: url(../../images/Bookmark.svg);
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    height: 40.9px;
+    width: 40.9px;
+    margin-top: -13px;
+}
+
+.rest__highlight {
+    height: 22px;
+    background-color: #F7EDD0;
+    color: #DAA31A;
+    font-family: 'Poppins Regular', 'Arial', sans-serif;
+    font-size: 12.78px;
+    line-height: 19.16px;
+    padding: 5px 8.46px 0;
+    display: inline-block;
+    border-radius: 5.4px;
+    margin: 0;
+}
+
+.rest__highlight_red {
+    background-color: #F7C5BA;
+    color: #FB471D;
+}
+
+.rest__img {
+    height: 176.13px;
+    width: 100%;
+    border-top-left-radius: 30.02px;
+    border-top-right-radius: 30.02px;
+}
+
+.rest__info {
+    display: flex;
+    font-family: 'Manrope Regular', 'Arial', sans-serif;
+    font-size: 19.34px;
+    line-height: 25.79px;
+    color: #8E97A6;
+}
+.rest__name {
+    font-family: 'Poppins SemiBold', 'Arial', sans-serif;
+    font-size: 25.79px;
+    line-height: 41.9px;
+    margin: 0;
+}
+
+.rest__rating {
+    margin: 0 0 0 6px;
+}
+
+.rest__star {
+    height: 25.79px;
+    width: 25.79px;
+    margin-left: 8px;
+}
+
+.rest__time {
+    margin: 0;
+    
+}
+
+@media screen and (max-width: 1390px) {
+    .rest {
+        width: 350px;
+        height: 297px;
+    }
+
+    .rest__img {
+        height: 176px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+    .rest {
+        width: 281px;
+        height: 211px;
+        border-radius: 21px;
+    }
+
+    .rest__content {
+        padding: 2px 15px 5px 24px;
+    }
+
+    .rest__favourite {
+        height: 28px;
+        width: 28px;
+        margin: -9px 3px 0 0;
+    }
+
+    .rest__highlight {
+        font-size: 9px;
+        line-height: 14px;
+        height: 15px;
+        padding: 3.5px 6px 0;
+    }
+
+    .rest__img {
+        height: 125px;
+        width: 281px;
+        border-top-left-radius: 21px;
+        border-top-right-radius: 21px;
+    }
+
+    .rest__info {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .rest__name {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .rest__star {
+        height: 18px;
+        width: 18px;
+        margin-left: 4px;
+    }
+    
 }

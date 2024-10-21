@@ -1,17 +1,12 @@
-.dishes {
+.customers {
     display: flex;
     flex-direction: column;
-    justify-content: center ;
-    border-bottom: #CBCBCB 1px solid;
+    justify-content: center;
+    padding: 116px 0 217px;
 }
 
-.dishes__container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.dishes__title {
-    margin: 100px 0 75.88px 0;
+.customers__title {
+    margin: 0 0 80px 0;
     font-family: 'Poppins SemiBold', 'Arial', sans-serif;
     font-size: 45px;
     line-height: 25.56px;
@@ -19,10 +14,15 @@
 }
 
 @media screen and (max-width: 1250px) {
-    .dishes__title {
+
+    .customers {
+        padding: 82px 0 154px;
+    }
+
+    .customers__title {
         font-size: 32px;
         line-height: 18px;
-        margin: 71px 0 55px 0;
+        margin: 0 0 56px 0;
     }
     
 }

@@ -1,0 +1,37 @@
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 122px;
+    border-bottom: #CBCBCB 1px solid;
+}  
+
+.dashboard__list {
+    list-style: none;
+    padding: 0;
+    margin-top: 48px;
+}
+
+.dashboard__title {
+    margin: 3px 0 0 10px;
+    font-family: 'Poppins Bold', 'Arial', sans-serif;
+    font-size: 50.92px;
+    line-height: 58.2px;
+}
+
+@media screen and (max-width: 1300px) {
+    .dashboard {
+        padding: 73px 0 81px;
+    }
+
+    .dashboard__list {
+        list-style: none;
+        padding: 0;
+        margin-top: 36px;
+    }
+
+    .dashboard__title {
+        font-size: 36px;
+        line-height: 41px;
+        margin: 0 0 0 3px;
+    }
+}

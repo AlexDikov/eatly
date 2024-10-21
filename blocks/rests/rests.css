@@ -4,3 +4,51 @@
     justify-content: center ;
     border-bottom: #CBCBCB 1px solid;
 }
+
+.rests__btn {
+    background-color: transparent;
+    background-image: url(../../images/View\ All.svg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin: 66px 14px 120px auto;
+    width: 112.8px;
+    height: 46px;
+}
+
+.rests__btn_dish {
+    margin-top: 65px;
+}
+
+.rests__container {
+    display: flex;
+    justify-content: space-between;
+    height: 297.6px;
+}
+
+.rests__title {
+    margin: 100px 0 85.7px 0;
+    font-family: 'Poppins SemiBold', 'Arial', sans-serif;
+    font-size: 45px;
+    line-height: 25.56px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .rests__btn {
+        margin: 46px 9px 85px auto;
+        width: 80px;
+        height: 33px;
+    }
+
+    .rests__container {
+        height: 212px;
+    }
+
+    .rests__title {
+        font-size: 32px;
+        line-height: 18px;
+        margin: 71px 0 62px 0;
+    }
+    
+}

@@ -6,3 +6,181 @@
     box-shadow: 6.85px 82.18px 41.09px rgb(229, 229, 229, 0.7);
     position: relative;
 }
+
+.dish__add-btn {
+    border: none;
+    background-image: url(../../images/Add.svg);
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    height: 39.72px;
+    width: 43.83px;
+    margin: 0;
+}
+
+.dish__content {
+    padding: 0 25px 27px 25px;
+}
+
+.dish__heart {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    width: 22px;
+    height: 18px;
+}
+
+.dish__highlight {
+    height: 20.21px;
+    margin: 0;
+    background-color: #F7EDD0;
+    color: #DAA31A;
+    font-family: 'Poppins Regular', 'Arial', sans-serif;
+    font-size: 11.49px;
+    line-height: 17.13px;
+    padding: 3.5px 7px 0;
+    display: inline-block;
+    border-radius: 5.4px;
+}
+
+.dish__highlight_green {
+    background-color: rgb(51, 172, 100, 0.2);
+    color: #309D5B;
+}
+
+.dish__highlight_red {
+    background-color: #F7C5BA;
+    color: #FB471D;
+}
+
+.dish__img {
+    height: 184.91px;
+    width: 184.91px;
+    margin: 35.02px 0 0 15px;
+}
+
+.dish__info {
+    display: flex;
+    font-family: 'Manrope Regular', 'Arial', sans-serif;
+    font-size: 17.29px;
+    line-height: 23.05px;
+    color: #8E97A6;
+}
+
+.dish__name {
+    font-family: 'Poppins SemiBold', 'Arial', sans-serif;
+    font-size: 23.05px;
+    line-height: 37.46px;
+    color: #323142;
+    margin: 0;
+}
+
+.dish__price {
+    font-family: 'Manrope Bold', 'Arial', sans-serif;
+    font-size: 25.94px;
+    line-height: 40.34px;
+    color: #323142;
+    margin: 0;
+}
+
+.dish__price_cent {
+    color: #8E97A6;
+    font-size: 18.81px;
+    margin: 0 0 0 -4px;
+}
+
+.dish__purchase {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.dish__rating {
+    margin: 0 0 0 5px;
+}
+
+.dish__star {
+    height: 23.05px;
+    width: 23.05px;
+    margin-left: 5px;
+}
+
+.dish__time {
+    margin: 0;
+}
+
+@media screen and (max-width: 1340px) {
+    .dish {
+        width: 160px;
+        height: 278px;
+        border-radius: 25px;
+    }
+    
+    .dish__add-btn {
+        height: 28px;
+        width: 31px;
+        margin: 2px 0 0 0;
+    }
+
+    .dish__content {
+        padding: 14px 16px 16px 16px;
+        position: relative;
+    }
+
+    .dish__heart {
+        top: 14px;
+        right: 15px;
+        width: 16px;
+        height: 13px;
+    }
+
+    .dish__highlight {
+        font-size: 8px;
+        line-height: 12px;
+        height: 15px;
+        padding: 2px 5px 0;
+        position: absolute;
+        top: -1px;
+        left: 16px;
+    }
+
+    .dish__img {
+        height: 132px;
+        width: 132px;
+        margin: 23px 0 0 10px;
+    }
+
+    .dish__info {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .dish__name {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .dish__price {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .dish__price_cent {
+        color: #8E97A6;
+        font-size: 13.4px;
+        margin: 0 0 0 -4px;
+    }
+
+    .dish__purchase {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+    }
+
+    .dish__star {
+        height: 16px;
+        width: 16px;
+        margin-left: 3px;
+    }
+    
+}

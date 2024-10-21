@@ -13,3 +13,9 @@
 span {
     color: #5C4EAE
 }
+
+@media screen and (max-width: 1250px) {
+    .page {
+        padding: 24px 69px 0 69px;
+    }
+}

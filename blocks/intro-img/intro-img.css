@@ -1,0 +1,227 @@
+.intro-img {
+    position: relative;
+    width: 680.48px;
+    height: 607px;
+    margin-right: -41.48px;
+}
+
+.intro-img__background {
+    width: 206.99px;
+    height: 205.48px;
+    border-radius: 16.76px;
+    position: absolute;
+    left: 32px;
+    bottom: 35.43px;
+    z-index: 1;
+    background-color: #FFFFFF;
+    box-shadow: 13.41px -16.76px 27.93px rgba(1, 1, 1, 0.15);
+}
+
+.intro-img__background_little {
+    width: 328.7px;
+    height: 89.5px;
+    top: 31px;
+    right: 44.48px;
+    bottom: auto;
+    left: auto;
+    box-shadow: -9.84px 12.3px 20.51px rgba(1, 1, 1, 0.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 4.07px 25.24px 3.27px 15.24px;
+    box-sizing: border-box;
+    align-items: end;
+    font-family: 'Poppins Medium', 'Arial', sans-serif;
+    font-size: 10.66px;
+    line-height: 14.93px;
+    color: #ACADB9;
+}
+
+.intro-img__dish {
+    width: 429.62px;
+    height: 443.61px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.intro-img__dish-status {
+    width: 206.39px;
+    height: 81.12px;
+}
+
+.intro-img__ellipse {
+    background-color: #6C5FBC;
+    border-radius: 424px;
+    width: 422px;
+    height: 424px;
+    position: absolute;
+    margin: auto;
+    left: 5px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.intro-img__il1 {
+    width: 49px;
+    height: 27px;
+    position: absolute;
+    top: -1px;
+    right: 0;
+}
+
+.intro-img__il2 {
+    width: 45px;
+    height: 37px;
+    position: absolute;
+    bottom:-3px;
+    left: -7px;
+}
+
+.intro-img__rank {
+    width: 301px;
+    height: 31px;
+    margin-top: 33px;
+}
+
+.intro-img__stats {
+    position: absolute;
+    left: 31px;
+    bottom: 47.43px;
+    width: 207.25px;
+    height: 181.28px;
+    z-index: 2;
+}
+
+.intro-img__vector {
+    width: 97.42px;
+    height: 101px;
+    position: absolute;
+    top:52px;
+    right: -57px;
+}
+
+@media screen and (max-width: 1250px) {
+    .intro-img {
+        width: 484px;
+        height: 432px;
+        margin: 20px -29.5px 0 0;
+    }
+
+    .intro-img__background {
+        width: 147px;
+        height: 146px;
+        border-radius: 12px;
+        left: 25.6px;
+        bottom: 25px;
+    } 
+
+    .intro-img__background_little {
+        width: 234px;
+        height: 64px;
+        top: 23px;
+        right: 29.5px;
+        bottom: auto;
+        left: auto;
+        padding: 4.07px 18px 3.27px 15.24px;
+        font-size: 10.66px;
+        line-height: 14.93px;
+    }
+
+    .intro-img__button {
+        font-size: 12px;
+        line-height: 17px;
+        border-radius: 9px;
+        height: 42px;
+        width: 111px;
+    }
+
+    .intro-img__button:last-of-type {
+        height: 42px;
+        width: 78px;
+        margin:25px 0 0 10px;
+    }
+
+    .intro-img__description {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 12px;
+        letter-spacing: 0.3px;
+    }
+
+    .intro-img__dish {
+        width: 305px;
+        height: 315px;
+        right: 12px;
+        top: 8px;
+    } 
+
+    .intro-img__dish-status {
+        width: 148px;
+        height: 58px;
+        margin-left: -5px;
+    } 
+
+    .intro-img__ellipse {
+        width: 300px;
+        height: 302px;
+    } 
+
+    .intro-img__il1 {
+        width: 35px;
+        height: 20px;
+    }    
+
+    .intro-img__il2 {
+        width: 28px;
+        height: 25px;
+        bottom:0;
+        left: 0;
+    } 
+
+    .intro-img__img {
+        width: 484px;
+        height: 432px;
+        margin-right: -29.5px;
+        margin-top: 20px;
+    }
+
+    .intro-img__rank {
+        width: 214px;
+        height: 23px;
+        margin-top: 24px;
+    }
+
+    .intro-img__stats {
+        left: 24px;
+        bottom: 34px;
+        width: 147px;
+        height: 129px;
+    }
+
+    .intro-img__subtitle {
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 12px;
+    }
+
+    .intro-img__title {
+        font-size: 53px;
+        line-height: 64px;
+        letter-spacing: -1.9px;
+        margin: 0;
+        max-width: 400px;
+    }
+
+    .intro-img__vector {
+        width: 72px;
+        height: 69px;
+        top: 38px;
+        right: -43px;
+    }
+
+    .intro-img__time {
+        font-size: 7.6px;
+        line-height: 10.6px;
+    }
+}

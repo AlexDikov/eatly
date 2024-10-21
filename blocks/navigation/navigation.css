@@ -1,0 +1,31 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 103.12px;
+    list-style: none;
+    color: #606060;
+    padding: 0;
+}
+
+.navigation__item {
+    margin-right: 53.49px;
+    letter-spacing: 0.7px;
+}
+
+.navigation__item:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1250px) {
+
+.navigation {
+    margin-left: 74px;
+    padding-top: 3px;
+}
+
+.navigation__item {
+    margin-right: 37px;
+}
+}
